@@ -13,6 +13,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
+    base: "/",
     server: {
       host,
       port: 5173,
